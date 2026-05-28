@@ -21,11 +21,11 @@ The following Python functions were used to access file system metadata and inte
 ---
 
 ## Example Execution
-A demonstration document is available: `tp2 screen.odt`
+A demonstration document is available: `tp2_screens.odt` or `tp2_screens.pdf`
 
 ## How to Run the Program
 
 1. Run the script from your terminal in a Linux-compatible environment (Killercoda, Google Colab, or local Linux):
    ```bash
-   python3 file_analyzer.py
+   python3 files_analyzer_MY.py
 `
