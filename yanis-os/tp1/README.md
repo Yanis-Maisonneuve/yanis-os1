@@ -18,16 +18,13 @@ The script `systems_infos_MY.sh` prints the following information:
 ## Usage
 1. Make the script executable:
 ```bash
-chmod +x system_info.sh
+chmod +x systems_infos_MY.sh
 ```
 2. Run the script:
 ```bash
 ./systems_infos_MY.sh
 ```
 
-## Deliverables
-- `system_info.sh` — the reporting script
-- `tp1_screen.odt` — optional screenshot/document demonstrating execution
 
 ## Notes
 - The script uses colored output by default; colors are ANSI escape codes and may be disabled or ignored by some terminals.
