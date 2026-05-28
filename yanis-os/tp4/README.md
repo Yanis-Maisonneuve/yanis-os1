@@ -79,26 +79,6 @@ This assignment demonstrates how threading and synchronization work in Python. T
 
 ---
 
-## Example Output
-
-The script should print logs similar to:
-
-```text
-[Part 1] Starting 4 unsynchronized threads...
-[Part 1] Expected Result : 4,000,000
-[Part 1] Actual Result   : 3,478,912
-[Part 1] Discrepancy    : 521,088 lost increments!
-[Part 1] Time taken      : 0.1234 seconds
---------------------------------------------------
-[Part 2] Starting 4 synchronized threads (using Mutex/Lock)...
-[Part 2] Expected Result : 4,000,000
-[Part 2] Actual Result   : 4,000,000
-[Part 2] Success Status  : MATCH
-[Part 2] Time taken      : 0.4321 seconds
-```
-
----
-
 ## Notes
 
 - The unsynchronized version highlights how thread interleaving can corrupt shared data.
