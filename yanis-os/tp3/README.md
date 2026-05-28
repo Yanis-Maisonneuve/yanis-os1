@@ -58,16 +58,16 @@ This project demonstrates process creation and inter-process communication (IPC)
 The program should display logs similar to:
 
 ```text
-[Parent - PID 12345] Parent process initialized.
-[Parent - PID 12345] Spawning child process...
-[Child  - PID 12346] Process started. Waiting for data from parent...
-[Parent - PID 12345] Sending data to child: 'Operating Systems 2026'
-[Parent - PID 12345] Waiting for response from child...
-[Child  - PID 12346] Received data from parent: 'Operating Systems 2026'
-[Child  - PID 12346] Transforming data...
-[Child  - PID 12346] Sent transformed data back to parent. Exiting.
-[Parent - PID 12345] Success! Received from child: '6202 SMETSYS GNITAREPO'
-[Parent - PID 12345] Child process joined. Program execution completed.
+[Parent - PID xxxxx] Parent process initialized.
+[Parent - PID xxxxx] Spawning child process...
+[Child  - PID xxxxx] Process started. Waiting for data from parent...
+[Parent - PID xxxxx] Sending data to child: 'Operating Systems 2026'
+[Parent - PID xxxxx] Waiting for response from child...
+[Child  - PID xxxxx] Received data from parent: 'Operating Systems 2026'
+[Child  - PID xxxxx] Transforming data...
+[Child  - PID xxxxx] Sent transformed data back to parent. Exiting.
+[Parent - PID xxxxx] Success! Received from child: '6202 SMETSYS GNITAREPO'
+[Parent - PID xxxxx] Child process joined. Program execution completed.
 ```
 
 ---
